@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bigdata-kafka.iml" filepath="$PROJECT_DIR$/bigdata-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-consume-interceptor/kafka-consume-interceptor.iml" filepath="$PROJECT_DIR$/kafka-consume-interceptor/kafka-consume-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-custinterceptor/kafka-custinterceptor.iml" filepath="$PROJECT_DIR$/kafka-custinterceptor/kafka-custinterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-custpartitioner/kafka-custpartitioner.iml" filepath="$PROJECT_DIR$/kafka-custpartitioner/kafka-custpartitioner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-custserializer/kafka-custserializer.iml" filepath="$PROJECT_DIR$/kafka-custserializer/kafka-custserializer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-producer-consumer/kafka-producer-consumer.iml" filepath="$PROJECT_DIR$/kafka-producer-consumer/kafka-producer-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-springboot/kafka-springboot.iml" filepath="$PROJECT_DIR$/kafka-springboot/kafka-springboot.iml" />
+    </modules>
+  </component>
+</project>

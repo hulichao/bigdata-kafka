@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1f01738-648d-4207-bb87-14cc551c1d1e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\hu_devlope\.m2\repository" />
+        <option name="mavenHome" value="E:\hu_devlope\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\hu_devlope\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kGngJMwTYpvAezvNFm5rFR9vOe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-consume-interceptor/src/main/java/com/hoult/kafka" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-producer-consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hoult.kafka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-consume-interceptor\src\main\java\com\hoult\kafka" />
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-custinterceptor\src\main\java\com\hoult\kafka" />
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka" />
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\src\main\java\com\hoult\kafka" />
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyConsumer">
+    <configuration name="MyConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyConsumer" />
+      <module name="kafka-consume-interceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.consumer.MyConsumer2" />
+      <module name="kafka-producer-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyProducer" />
+      <module name="kafka-custpartitioner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProducer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyProducer" />
+      <module name="kafka-custinterceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoult.producer.MyProducer" />
+      <module name="kafka-custserializer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyConsumer" />
+        <item itemvalue="Application.MyProducer (2)" />
+        <item itemvalue="Application.MyProducer (1)" />
+        <item itemvalue="Application.MyProducer" />
+        <item itemvalue="Application.MyConsumer2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1f01738-648d-4207-bb87-14cc551c1d1e" name="Default Changelist" comment="" />
+      <created>1605335907405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605335907405</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="13" key="#Project_Structure" timestamp="1605361362760">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="13" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1605361362760" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605363621015">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1605363621015" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1605425363144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605425363144" />
+    <state x="497" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605363182546">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="497" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.864@0.0.1536.864" timestamp="1605363182546" />
+    <state x="549" y="186" key="FileChooserDialogImpl" timestamp="1605336118744">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605336118744" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1605438918343">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1605438918343">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1605438918343">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1605438918343">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1605425916956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605425916956" />
+    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1605425916956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605425916956" />
+    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1605425916956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605425916956" />
+    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1605425916956">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605425916956" />
+    <state x="270" y="13" width="996" height="708" key="SettingsEditor" timestamp="1605363660879">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="13" width="996" height="708" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605363660879" />
+    <state x="681" y="187" width="602" height="594" key="find.popup" timestamp="1605435176136">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="681" y="187" width="602" height="594" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1605435176136" />
+    <state x="178" y="84" width="1198" height="780" key="new project wizard" timestamp="1605435000599">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="84" width="1198" height="780" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605435000599" />
+  </component>
+</project>
