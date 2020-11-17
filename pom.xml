@@ -35,6 +35,7 @@
         <module>kafka-custpartitioner</module>
         <module>kafka-custinterceptor</module>
         <module>kafka-consume-interceptor</module>
+        <module>kafka-kafkaadmin</module>
     </modules>
 
     <dependencies>

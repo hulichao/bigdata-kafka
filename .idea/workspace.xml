@@ -3,8 +3,21 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f01738-648d-4207-bb87-14cc551c1d1e" name="Default Changelist" comment="" />
+    <list default="true" id="c1f01738-648d-4207-bb87-14cc551c1d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-kafkaadmin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-kafkaadmin/src/main/java/com/hoult/kafka/MyAdminClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,57 +49,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-consume-interceptor/src/main/java/com/hoult/kafka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-kafkaadmin/src/main/java/com/hoult/kafka" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-producer-consumer" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hoult.kafka" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-kafkaadmin\src\main\java\com\hoult\kafka" />
       <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-consume-interceptor\src\main\java\com\hoult\kafka" />
       <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-custinterceptor\src\main\java\com\hoult\kafka" />
       <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka" />
       <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\src\main\java\com\hoult\kafka" />
-      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\scripts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hoult.kafka" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hu_devlope\idea_workpace\bigdata-kafka\kafka-producer-consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyConsumer">
+  <component name="RunManager" selected="JUnit.MyAdminClient.testDescribeLogDirs">
     <configuration name="MyConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyConsumer" />
       <module name="kafka-consume-interceptor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hoult.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.consumer.MyConsumer2" />
-      <module name="kafka-producer-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hoult.kafka.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyProducer" />
-      <module name="kafka-custpartitioner" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hoult.kafka.*" />
@@ -107,26 +97,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hoult.producer.MyProducer" />
-      <module name="kafka-custserializer" />
+    <configuration name="MyAdminClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-kafkaadmin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hoult.producer.*" />
+          <option name="PATTERN" value="com.hoult.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hoult.kafka" />
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyAdminClient" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAdminClient.testDescribeLogDirs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-kafkaadmin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hoult.kafka" />
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyAdminClient" />
+      <option name="METHOD_NAME" value="testDescribeLogDirs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAdminClient.testListTopics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-kafkaadmin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoult.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hoult.kafka" />
+      <option name="MAIN_CLASS_NAME" value="com.hoult.kafka.MyAdminClient" />
+      <option name="METHOD_NAME" value="testListTopics" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyAdminClient.testDescribeLogDirs" />
+        <item itemvalue="JUnit.MyAdminClient" />
+        <item itemvalue="JUnit.MyAdminClient.testListTopics" />
         <item itemvalue="Application.MyConsumer" />
         <item itemvalue="Application.MyProducer (2)" />
-        <item itemvalue="Application.MyProducer (1)" />
-        <item itemvalue="Application.MyProducer" />
-        <item itemvalue="Application.MyConsumer2" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +164,18 @@
       <updated>1605335907405</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="13" key="#Project_Structure" timestamp="1605361362760">
@@ -162,22 +198,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605336118744" />
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1605438918343">
+    <state x="606" y="337" key="Github.ShareDialog" timestamp="1605539418930">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
-    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1605438918343">
+    <state x="606" y="337" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1605539418930" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1605544683543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
-    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1605438918343">
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605544683543" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1605544683543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
-    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1605438918343">
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605544683543" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1605544683543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605438918343" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605544683543" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1605544683543">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605544683543" />
     <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1605425916956">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -202,9 +242,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="681" y="187" width="602" height="594" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1605435176136" />
-    <state x="178" y="84" width="1198" height="780" key="new project wizard" timestamp="1605435000599">
+    <state x="178" y="84" width="1198" height="780" key="new project wizard" timestamp="1605544294995">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="84" width="1198" height="780" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605435000599" />
+    <state x="178" y="84" width="1198" height="780" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605544294995" />
   </component>
 </project>

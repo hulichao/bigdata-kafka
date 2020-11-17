@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-producer-consumer" />
         <module name="kafka-custinterceptor" />
-        <module name="kafka-consume-interceptor" />
-        <module name="kafka-custpartitioner" />
         <module name="kafka-custserializer" />
         <module name="kafka-springboot" />
+        <module name="kafka-producer-consumer" />
+        <module name="kafka-consume-interceptor" />
+        <module name="kafka-custpartitioner" />
+        <module name="kafka-kafkaadmin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="kafka-custinterceptor" target="8" />
       <module name="kafka-custpartitioner" target="8" />
       <module name="kafka-custserializer" target="8" />
+      <module name="kafka-kafkaadmin" target="8" />
       <module name="kafka-producer-consumer" target="8" />
       <module name="kafka-springboot" target="1.8" />
     </bytecodeTargetLevel>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/kafka-custinterceptor/kafka-custinterceptor.iml" filepath="$PROJECT_DIR$/kafka-custinterceptor/kafka-custinterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-custpartitioner/kafka-custpartitioner.iml" filepath="$PROJECT_DIR$/kafka-custpartitioner/kafka-custpartitioner.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-custserializer/kafka-custserializer.iml" filepath="$PROJECT_DIR$/kafka-custserializer/kafka-custserializer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-kafkaadmin/kafka-kafkaadmin.iml" filepath="$PROJECT_DIR$/kafka-kafkaadmin/kafka-kafkaadmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-producer-consumer/kafka-producer-consumer.iml" filepath="$PROJECT_DIR$/kafka-producer-consumer/kafka-producer-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-springboot/kafka-springboot.iml" filepath="$PROJECT_DIR$/kafka-springboot/kafka-springboot.iml" />
     </modules>
